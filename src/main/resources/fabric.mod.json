@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "listentryhighlightfix",
+  "version": "${version}",
+
+  "name": "List Entry Highlight Fix",
+  "description": "Fix potential misalignment of the highlight border in list like Multiplayer screen",
+  "authors": [
+    "LX86"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/Kenny-Hui/ListEntryHighlightFix"
+  },
+
+  "license": "MIT",
+  "icon": "assets/listentryhighlightfix/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.lx862.listentryhighlightfix.ListEntryHighlightFix"
+    ]
+  },
+  "mixins": [
+    "listentryhighlightfix.mixin.json"
+  ],
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
