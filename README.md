@@ -19,8 +19,7 @@ Now that you can't un-see it, this mod fixes that:
 
 <img alt="It is now always aligned to 2px, all edge has the same margin" src="assets/5.png">
 
-So it always aligns neatly ^w^
-
+So it always aligns neatly ^w^  
 ~~mojang pls fix~~
 
 ## License
