@@ -1,10 +1,10 @@
 plugins {
-	id 'fabric-loom' version '1.4-SNAPSHOT'
+	id 'fabric-loom' version '1.7-SNAPSHOT'
 	id 'maven-publish'
 }
 
-sourceCompatibility = JavaVersion.VERSION_17
-targetCompatibility = JavaVersion.VERSION_17
+sourceCompatibility = JavaVersion.VERSION_21
+targetCompatibility = JavaVersion.VERSION_21
 
 group = project.maven_group
 version = project.mod_version
@@ -39,8 +39,7 @@ tasks.withType(JavaCompile).configureEach {
 	// If Javadoc is generated, this must be specified in that task too.
 	it.options.encoding = "UTF-8"
 
-	// Minecraft 1.18 upwards uses Java 17.
-	def targetVersion = 17
+	def targetVersion = 21
 	if (JavaVersion.current().isJava9Compatible()) {
 		 it.options.release = targetVersion
 	}
