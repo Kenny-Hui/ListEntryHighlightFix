@@ -1,6 +1,8 @@
 # List Entry Highlight Fix
 Fix potential misalignment of list entry border in Minecraft.  
-Available for Fabric 1.19 - 1.20.
+Available for Fabric 1.19.1 - 1.21.8.
+
+## No longer required in 1.21.9 and beyond as Mojang fixed it themselves!
 
 ## What?
 Consider the following:  
